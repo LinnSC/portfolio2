@@ -1,0 +1,70 @@
+@import "./partials/include-media";
+@import "./partials/variables";
+
+.nav {
+  background-color: $background-colour-opacity;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 60px;
+  padding: 15px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  @include media(">=tablet") {
+    padding: 20px 50px;
+    height: 80px;
+  }
+
+  @include media(">=desktop") {
+    padding: 20px 80px;
+  }
+
+  @include media(">=lg-desktop") {
+    padding: 20px 100px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+    @include media(">=tablet") {
+      column-gap: 50px;
+    }
+  }
+
+  li {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+.some {
+  display: flex;
+  column-gap: 15px;
+  margin-left: 10px;
+  @include media(">=tablet") {
+    margin-left: 20px;
+    column-gap: 20px;
+  }
+}
+
+.icon {
+  font-size: 1.3rem;
+
+  @include media(">=tablet") {
+    font-size: 1.6rem;
+  }
+}
+
+.scrollLink {
+  &:hover {
+    cursor: pointer;
+  }
+}

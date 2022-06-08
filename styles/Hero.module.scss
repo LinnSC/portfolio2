@@ -1,0 +1,42 @@
+@import "./partials/variables";
+@import "./partials/include-media";
+
+.heroSect {
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  @include media(">=650px") {
+    height: 90vh;
+  }
+}
+
+.container {
+  display: block;
+}
+
+.heading1 {
+  color: $secondary-colour;
+  font-size: 7rem;
+  font-weight: 500;
+
+  @include media(">=650px") {
+    font-size: 15rem;
+  }
+}
+
+.heading2 {
+  margin-left: 100px;
+  margin-top: -67px;
+  font-size: 4rem;
+  font-weight: 400;
+  @include media(">=650px") {
+    font-size: 6rem;
+    margin-left: 220px;
+    margin-top: -104px;
+  }
+}

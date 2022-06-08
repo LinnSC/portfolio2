@@ -1,0 +1,67 @@
+@import "./partials/variables";
+@import "./partials/include-media";
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-primary;
+  min-height: 100vh;
+  margin: 0;
+  background-color: $background-colour;
+  color: $text-colour;
+}
+
+h1,
+h2 {
+  font-family: $font-secondary;
+  margin: 0;
+}
+
+h3 {
+  font-family: $font-secondary;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $text-colour;
+
+  &:hover {
+    color: $secondary-colour;
+    opacity: 0.7;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+  }
+
+  &:focus {
+    color: $secondary-colour;
+  }
+}
+
+.active {
+  color: $secondary-colour;
+}
