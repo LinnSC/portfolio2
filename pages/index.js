@@ -2,8 +2,7 @@ import styles from "../styles/Index.module.scss";
 import Layout from "../components/layout/Layout";
 import HeroSection from "../components/Sections/HeroSection";
 import ProjectCard from "../components/Cards/ProjectCard";
-
-import { projectData } from "../data/projectData";
+import { projectData } from "../data/ProjectData";
 
 export default function Home() {
   return (
