@@ -34,14 +34,13 @@ export default function ProjectCard({
       </div>
       <div className={styles.textContainer}>
         <div
-          ref={ref}
           className={`${styles.headingContainer} ${
             inView ? animationStyles.lineAnimation : ""
           }`}
         >
           <Heading size="3">{title}</Heading>
         </div>
-        <div className={styles.btnContainer}>
+        <div ref={ref} className={styles.btnContainer}>
           <Button href={linkGithub} className={styles.projectBtn}>
             <div className={styles.innerBtnContainer}>
               <div className={styles.btnDiv}>

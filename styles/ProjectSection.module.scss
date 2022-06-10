@@ -5,6 +5,18 @@
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  row-gap: 7rem;
+  row-gap: 5rem;
   padding: 5rem 10px;
+
+  @include media(">=tablet") {
+    row-gap: 7rem;
+  }
+
+  @include media(">=desktop") {
+    row-gap: 8rem;
+  }
+
+  @include media(">=lg-desktop") {
+    row-gap: 10rem;
+  }
 }
