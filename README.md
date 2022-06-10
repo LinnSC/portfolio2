@@ -1,8 +1,12 @@
-![Portfolio_2 banner](https://user-images.githubusercontent.com/71352428/172015050-0eeb772a-b9ce-4b1e-888f-a8707e4df60d.png)
+![Portfolio_2 (1)](https://user-images.githubusercontent.com/71352428/173153241-d5dfdd6f-d844-423c-b98f-0f46ad571964.png)
+![myPortfolio](https://user-images.githubusercontent.com/71352428/173153017-5ed67d11-5d90-420d-bc22-1c75963fd382.png)
 
 ---
 
 ## Description
+
+This is the last exam of the Front-end development 2nd year. For this exam I had to create a website listing; semester project 2, JS Frameworks CA and Project Exam 2. All of these project have a description, a link to the Github repo and a link to the live website. 
+
 
 ## Built With
 
@@ -38,9 +42,9 @@ yarn dev
 
 ## Contributing
 
-If you want to contibute to this project you...
+If you want to contibute to this project you have to make sure to open a pull request so code can be reviewed.
 
-## Contact
+## Contact.
 
 You can contact me on Linkedin!
 
