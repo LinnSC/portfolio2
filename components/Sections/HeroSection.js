@@ -9,9 +9,11 @@ export default function HeroSection() {
         <div className={styles.container}>
           <Heading size="1">
             <div className={styles.heading1}>
-              <TextAnimation />
+              <TextAnimation text="My" />
             </div>
-            <div className={styles.heading2}> Portfolio</div>
+            <div className={styles.heading2}>
+              <TextAnimation text="Portfolio" />
+            </div>
           </Heading>
         </div>
       </div>
