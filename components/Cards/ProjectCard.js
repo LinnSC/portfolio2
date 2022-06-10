@@ -5,7 +5,8 @@ import Button from "../common/Button";
 import Image from "next/image";
 import { AiFillGithub } from "react-icons/ai";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
-
+import animationStyles from "../../styles/Animation.module.scss";
+import { useInView } from "react-intersection-observer";
 import PropTypes from "prop-types";
 
 export default function ProjectCard({
@@ -17,8 +18,10 @@ export default function ProjectCard({
   description,
   readMore,
 }) {
+  const [ref, inView] = useInView();
+
   return (
-    <div key={id} className={styles.projectCard}>
+    <div ref={ref} key={id} className={styles.projectCard}>
       <div className={styles.imgContainer}>
         <Image
           className={styles.img}
@@ -30,18 +33,31 @@ export default function ProjectCard({
         ></Image>
       </div>
       <div className={styles.textContainer}>
-        <div className={styles.headingContainer}>
+        <div
+          ref={ref}
+          className={`${styles.headingContainer} ${
+            inView ? animationStyles.lineAnimation : ""
+          }`}
+        >
           <Heading size="3">{title}</Heading>
         </div>
         <div className={styles.btnContainer}>
           <Button href={linkGithub} className={styles.projectBtn}>
-            <AiFillGithub className={styles.icon} />
-            <div> Github repository</div>
+            <div className={styles.innerBtnContainer}>
+              <div className={styles.btnDiv}>
+                <AiFillGithub className={styles.icon} />
+                <span>Github repository</span>
+              </div>
+            </div>
           </Button>
 
           <Button href={linkWebsite} className={styles.projectBtn}>
-            <IoIosArrowDroprightCircle className={styles.icon} />
-            <div>Look at the website</div>
+            <div className={styles.innerBtnContainer}>
+              <div className={styles.btnDiv}>
+                <IoIosArrowDroprightCircle className={styles.icon} />
+                <span> Look at the website</span>
+              </div>
+            </div>
           </Button>
         </div>
         <div className={styles.descriptContainer}>
@@ -53,9 +69,12 @@ export default function ProjectCard({
   );
 }
 
-// ProjectCard.propTypes = {
-//   id: PropTypes.number,
-//   title: PropTypes.string.isRequired,
-//   description: PropTypes.string.isRequired,
-//   href: PropTypes.string.isRequired,
-// };
+ProjectCard.propTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  readMore: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
+  linkGithub: PropTypes.string.isRequired,
+  linkWebsite: PropTypes.string.isRequired,
+};
