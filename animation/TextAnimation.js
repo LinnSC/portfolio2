@@ -1,13 +1,13 @@
 import styles from "../styles/TextAnimation.module.scss";
-import React from "react";
+import { useState, useEffect } from "react";
 
 export default function TextAnimation({ text }) {
-  const reactArray = `${text}`.split("");
+  const textArray = `${text}`.split("");
 
   return (
     <>
       <div className={styles.animatedText}>
-        {reactArray.map((item, index) => (
+        {textArray.map((item, index) => (
           <span key={index}>{item}</span>
         ))}
       </div>
