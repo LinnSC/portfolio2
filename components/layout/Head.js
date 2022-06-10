@@ -8,7 +8,7 @@ export default function Head({ title = "" }) {
         {title}
         {title ? " | " : ""}Portfolio
       </title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.png" />
     </NextHead>
   );
 }

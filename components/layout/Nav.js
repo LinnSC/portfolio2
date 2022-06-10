@@ -32,13 +32,13 @@ export default function Nav() {
           </li>
           <li className={styles.some}>
             <NextLink href="https://github.com/LinnSC">
-              <a>
+              <a target="_blank" rel="noreferrer">
                 <AiFillGithub className={styles.icon} />
               </a>
             </NextLink>
 
             <NextLink href="https://www.linkedin.com/in/linn-corneliussen-246b0b56/">
-              <a>
+              <a target="_blank" rel="noreferrer">
                 <FaLinkedinIn className={styles.icon} />
               </a>
             </NextLink>

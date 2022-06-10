@@ -1,4 +1,3 @@
-import styles from "../styles/Index.module.scss";
 import Layout from "../components/layout/Layout";
 import HeroSection from "../components/Sections/HeroSection";
 import ProjectSection from "../components/Sections/ProjectSection";
