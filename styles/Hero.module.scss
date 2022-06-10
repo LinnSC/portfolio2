@@ -20,6 +20,7 @@
 }
 
 .heading1 {
+  z-index: 1;
   color: $secondary-colour;
   font-size: 7rem;
   font-weight: 500;
@@ -30,6 +31,7 @@
 }
 
 .heading2 {
+  z-index: 100;
   margin-left: 100px;
   margin-top: -67px;
   font-size: 4rem;
