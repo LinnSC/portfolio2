@@ -5,7 +5,7 @@
 
 ## Description
 
-This is the last exam of the Front-end development 2nd year. For this exam I had to create a website listing; semester project 2, JS Frameworks CA and Project Exam 2. All of these project have a description, a link to the Github repo and a link to the live website. 
+This is the last exam of Front-end development 2nd year. For this exam I had to create a website listing; semester project 2, JS Frameworks CA and Project Exam 2. All of these project have a description, a link to the Github repo and a link to the live website. 
 
 
 ## Built With
