@@ -28,11 +28,10 @@
 // Card layout end
 
 .projectCard {
-  border: 5px solid $secondary-colour;
+  border: 5px solid $primary-colour;
   padding: 2rem 1rem;
   border-radius: 10px;
   box-shadow: $box-shadow;
-  background-color: $secondary-colour-opacity;
   background-color: $alt-background-colour;
 
   @include media(">=tablet") {
@@ -68,7 +67,7 @@
   height: 3px;
   width: 265px;
   margin-left: -1rem;
-  background-color: $secondary-colour;
+  background-color: $primary-colour;
   margin-top: 1rem;
   display: inline-block;
 
@@ -107,7 +106,7 @@
   font-family: $font-secondary;
 
   &:hover {
-    border: 2px solid $secondary-colour;
+    border: 2px solid $primary-colour;
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
     -o-transition: all ease-out 0.4s;
@@ -121,7 +120,7 @@
     border: 3px solid transparent;
 
     &:hover {
-      border: 3px solid $secondary-colour;
+      border: 3px solid $primary-colour;
       -webkit-transition: all ease-out 0.4s;
       -moz-transition: all ease-out 0.4s;
       -o-transition: all ease-out 0.4s;

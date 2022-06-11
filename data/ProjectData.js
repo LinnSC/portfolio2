@@ -19,7 +19,7 @@ export const projectData = [
     linkWebsite: "https://js-frameworks-course-assignment-linn-sc.vercel.app/",
     src: "/assets/images/js-frameworks.png",
 
-    description: `This project is a CA delivered in out JS Frameworks course, built in Next.js. It consists of: a home page that displays some products returned from an API, product detail page, contact form and a login page that leads to an admin page. I used an open source API for this project.`,
+    description: `This project is a CA delivered in the JS Frameworks course, built in Next.js. It consists of: a home page that displays some products returned from an API, product detail page, contact form and a login page that leads to an admin page. I used an open source API for this project.`,
     readMore:
       "You can read more about this project in the README.md file on the Github repo.",
   },

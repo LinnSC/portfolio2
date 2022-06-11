@@ -52,19 +52,15 @@ a {
   color: $text-colour;
 
   &:hover {
-    color: $secondary-colour;
+    color: $primary-colour;
     opacity: 0.7;
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
     -o-transition: all ease-out 0.4s;
     transition: all ease-out 0.4s;
   }
-
-  &:focus {
-    color: $secondary-colour;
-  }
 }
 
 .active {
-  color: $secondary-colour;
+  color: $primary-colour;
 }
