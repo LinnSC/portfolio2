@@ -2,9 +2,8 @@ export const projectData = [
   {
     id: 1,
     title: "Project Exam 2",
-    linkGithub:
-      "https://github.com/Noroff-FEU-Assignments/project-exam-2-LinnSC",
-    linkWebsite: "https://project-exam2.vercel.app/",
+    linkGithub: "https://github.com/LinnSC/exam2-JKPortalen",
+    linkWebsite: "https://exam2-jk-portalen.vercel.app/",
     src: "/assets/images/project-exam.png",
 
     description: `“JK Portalen” is a registration portal for Jobbkretser's partners. In this project I designed and built the dashboard and the candidate pages. Website consists of a login page, dashboard page, candidate overview, candidate profile and a form to add and edit candidates. This project is built in React and for the backend I used strapi API.`,
@@ -14,14 +13,12 @@ export const projectData = [
   {
     id: 2,
     title: "JS frameworks CA",
-    linkGithub:
-      "https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-LinnSC",
-    linkWebsite: "https://js-frameworks-course-assignment-linn-sc.vercel.app/",
+    linkGithub: "#",
+    linkWebsite: "#",
     src: "/assets/images/js-frameworks.png",
 
     description: `This project is a CA delivered in the JS Frameworks course, built in Next.js. It consists of: a home page that displays some products returned from an API, product detail page, contact form and a login page that leads to an admin page. I used an open source API for this project.`,
-    readMore:
-      "You can read more about this project in the README.md file on the Github repo.",
+    readMore: "This project is no longer available.",
   },
   {
     id: 3,
