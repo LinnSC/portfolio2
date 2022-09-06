@@ -10,16 +10,16 @@ export const projectData = [
     readMore:
       "You can read more about this project and get the login information in the README.md file on the Github repo.",
   },
-  {
-    id: 2,
-    title: "JS frameworks CA",
-    linkGithub: "#",
-    linkWebsite: "#",
-    src: "/assets/images/js-frameworks.png",
+  // {
+  //   id: 2,
+  //   title: "JS frameworks CA",
+  //   linkGithub: "#",
+  //   linkWebsite: "#",
+  //   src: "/assets/images/js-frameworks.png",
 
-    description: `This project is a CA delivered in the JS Frameworks course, built in Next.js. It consists of: a home page that displays some products returned from an API, product detail page, contact form and a login page that leads to an admin page. I used an open source API for this project.`,
-    readMore: "This project is no longer available.",
-  },
+  //   description: `This project is a CA delivered in the JS Frameworks course, built in Next.js. It consists of: a home page that displays some products returned from an API, product detail page, contact form and a login page that leads to an admin page. I used an open source API for this project.`,
+  //   readMore: "This project is no longer available.",
+  // },
   {
     id: 3,
     title: "Semester project 2",
